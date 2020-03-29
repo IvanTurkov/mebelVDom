@@ -847,12 +847,16 @@ p.sub {
 
 a.fb {
     padding: 15px 19px;
-    background: #3b5998;
+    background: url("../images/instagram_bg.jpg") no-repeat center;
+    background-size: cover;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
+}
+.fb>i{
+    font-size: 30px;
 }
 
 a.twt {
@@ -919,6 +923,7 @@ div#horizontalTab {
     border-bottom: 6px solid #333331 !important;
 }
 
+
 /*-- //about--*/
 /*--testimonials-section--*/
 /*--/review--*/
@@ -927,7 +932,7 @@ div#review h5 {
 }
 
 .img-agile img {
-    width: 13%;
+    width: 20%;
 }
 
 .test-review img {
@@ -1104,21 +1109,6 @@ h4.text {
     transition-delay: 0.2s;
 }
 
-.view-fourth:hover img {
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    -o-transition-delay: 0s;
-    -ms-transition-delay: 0s;
-    transition-delay: 0s;
-}
 
 .view-fourth:hover p {
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -1282,6 +1272,10 @@ p.galleryp {
     font-size: 15px;
 }
 
+.about-p {
+    margin-bottom: 25px;
+}
+
 .contact span {
     color: #fff;
     margin-right: 8px;
@@ -1366,6 +1360,7 @@ a.mail:hover {
 .footer3-w3three ul li a {
     text-decoration: none;
     color: #fff;
+    display: block;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
